@@ -1,0 +1,41 @@
+
+Backend Assignment | Stuneckt
+Project Goal
+To build API endpoints for a microblogging platform like Twitter / LinkedIn where users can post content and follow each other.
+Basic Requirements
+Create API endpoints to interact with a MongoDB or PostgreSQL DB containing basic user data, posts data and follower relationships.
+The endpoints should be able to perform the following operations
+Get all posts made by a user
+Get all posts existing posts
+Get all followers of a user
+Get user’s basic details
+Update user’s details
+Create a post
+Implement pagination on these APIs
+Handle errors and edge cases to ensure robust API functionality.
+Don't worry about:
+User authentication.
+Bonus Points
+Create a minimal frontend to show consume these APIs (optional)
+Create a mock data feeder script which feeds in mock data to the DB (optional)
+Add basic email, password authentication (optional)
+Technologies
+You are free to choose the BE language / framework among Python, Go and NodeJS.
+Feel free to choose between a relational DB (like PostgreSQL) or non relational DB (like MondoDB) as a database.
+Note: Ensure that you have a valid rationale to support your technical decisions.
+Instructions
+Make sure that the database schema is expandable to modifications.
+Try and keep your commit messages clean, and leave comments explaining what you are doing wherever it makes sense.
+Also try and use meaningful variable/function names, and maintain indentation and code style.
+Submission should have a README file containing instructions to run the server and test the API.
+Submission
+Deploy your backend project live on a platform like Render or Vercel.
+Share the hosted API's base URL and provide a GitHub link to your project for evaluation.
+Fill this form below if you are not submitting through internshala https://forms.gle/f4EJXdiJaoXjSNH78
+Submit before 12th may 12am. (if you need any support on this reach out on +917338140545)
+Evaluation Criteria
+Your submission will be judged based on the following criteria:
+Code Quality: Ensure your code is clean, readable, and easy to follow.
+Error Handling: Implement robust error handling to handle all potential issues gracefully.
+API Design: Design clear and user-friendly API endpoints, including pagination for retrieving posts and user followers.
+Collaboration: Commits are small and written with clean commit messages (preferred Conventional Commits) 
